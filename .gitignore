@@ -1,0 +1,35 @@
+.DS_Store
+*~
+*\.o
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+github.com/
+gobook/ch1/lissajous/out.gif
+gobook/ch3/mandelbrot/mandelbrot.png
+gobook/ch3/surface/surface.svg
+golang.org/
+google.golang.org/
+gopl.io/
+honnef.co/
+real_world_http/https_client/ca.crt
+real_world_http/https_server/server.crt
+real_world_http/https_server/server.key
+real_world_http/multipart-form-data-mime/photo.jpg
+real_world_http/multipart-form-data/photo.jpg
+sample-go-context/
+sourcegraph.com/
+typed_js/DefinitelyTyped
+typed_js/flow-typed
+typed_js/skimdb.json
