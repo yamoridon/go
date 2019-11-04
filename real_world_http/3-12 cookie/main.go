@@ -12,7 +12,9 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	client := http.Client{Jar: jar}
+	client := http.Client{
+		Jar: jar,
+	}
 	for i := 0; i < 2; i++ {
 		resp, err := client.Get("http://localhost:18888/cookie")
 		if err != nil {

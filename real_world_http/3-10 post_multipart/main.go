@@ -12,12 +12,13 @@ import (
 func main() {
 	var buffer bytes.Buffer
 	writer := multipart.NewWriter(&buffer)
-	writer.WriteField("name", "Michael Jackson")
-	fileWriter, err := writer.CreateFormFile("thumbnail", "photo.jpg")
+	writer.WriteField("name", "The Go gopher")
+
+	fileWriter, err := writer.CreateFormFile("thumbnail", "gopher.png")
 	if err != nil {
 		panic(err)
 	}
-	readFile, err := os.Open("photo.jpg")
+	readFile, err := os.Open("gopher.png")
 	if err != nil {
 		panic(err)
 	}
