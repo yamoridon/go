@@ -23,11 +23,9 @@ golang.org/
 google.golang.org/
 gopl.io/
 honnef.co/
-real_world_http/https_client/ca.crt
-real_world_http/https_server/server.crt
-real_world_http/https_server/server.key
-real_world_http/multipart-form-data-mime/photo.jpg
-real_world_http/multipart-form-data/photo.jpg
+real_world_http/certification/ca.*
+real_world_http/certification/server.*
+real_world_http/certification/client.*
 sample-go-context/
 sourcegraph.com/
 typed_js/DefinitelyTyped
